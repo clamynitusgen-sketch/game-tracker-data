@@ -92,13 +92,13 @@
       "Pico Park",
       "Pine",
       "Planescape: Torment Enhanced Edition",
-      "Pokémon Café ReMix",
+      "Pok\u00e9mon Caf\u00e9 ReMix",
       "Raji: An Ancient Epic",
       "Record of Lodoss War: Deedlit in Wonder Labyrinth",
       "Ring Fit Adventure",
       "River City Girls",
       "River City Girls 2",
-      "Röki",
+      "R\u00f6ki",
       "RPG Time: The Legend of Wright",
       "Ruined King: A League of Legends Story",
       "Salt and Sanctuary",
@@ -190,7 +190,7 @@
       "Expedition 33",
       "Final Fantasy XIV: Dawntrail",
       "Ghost of Yotei",
-      "God of War: Ragnarok – Valhalla",
+      "God of War: Ragnarok \u2013 Valhalla",
       "GTA VI",
       "Helldivers 2",
       "Indiana Jones and the Great Circle",
@@ -359,7 +359,7 @@
       "Risk of Rain 2",
       "S.T.A.L.K.E.R. 2",
       "Satisfactory",
-      "Señor Paquito",
+      "Se\u00f1or Paquito",
       "Siralim Ultimate",
       "Songs of Conquest",
       "Space Marine 2",
@@ -476,252 +476,1164 @@
   },
   "challenges": {
     "Astro Bot": [
-      {"id": "bots", "label": "Bots rescued", "type": "num", "max": 300},
-      {"id": "puzzles", "label": "Puzzle pieces", "type": "num", "max": 100},
-      {"id": "worlds", "label": "Worlds cleared", "type": "num", "max": 6},
-      {"id": "bosses", "label": "Bosses defeated", "type": "checks", "items": ["Birdle", "Crabby", "King Bot"]}
+      {
+        "id": "bots",
+        "label": "Bots rescued",
+        "type": "num",
+        "max": 300
+      },
+      {
+        "id": "puzzles",
+        "label": "Puzzle pieces",
+        "type": "num",
+        "max": 100
+      },
+      {
+        "id": "worlds",
+        "label": "Worlds cleared",
+        "type": "num",
+        "max": 6
+      },
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "checks",
+        "items": [
+          "Birdle",
+          "Crabby",
+          "King Bot"
+        ]
+      }
     ],
     "Cult of the Lamb": [
-      {"id": "followers", "label": "Followers max", "type": "num", "max": 20},
-      {"id": "dungeons", "label": "Dungeons cleared", "type": "num", "max": 20},
-      {"id": "bosses", "label": "Bishops defeated", "type": "checks", "items": ["Leshy", "Heket", "Kallamar", "Shamura", "Narinder"]},
-      {"id": "fleeces", "label": "Fleeces unlocked", "type": "num", "max": 8},
-      {"id": "doctrines", "label": "Doctrines unlocked", "type": "num", "max": 24}
+      {
+        "id": "followers",
+        "label": "Followers max",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "dungeons",
+        "label": "Dungeons cleared",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "bosses",
+        "label": "Bishops defeated",
+        "type": "checks",
+        "items": [
+          "Leshy",
+          "Heket",
+          "Kallamar",
+          "Shamura",
+          "Narinder"
+        ]
+      },
+      {
+        "id": "fleeces",
+        "label": "Fleeces unlocked",
+        "type": "num",
+        "max": 8
+      },
+      {
+        "id": "doctrines",
+        "label": "Doctrines unlocked",
+        "type": "num",
+        "max": 24
+      }
     ],
     "Death's Door": [
-      {"id": "bosses", "label": "Bosses defeated", "type": "checks", "items": ["Frog King", "Urn Witch", "Lord of Doors", "Giant Door", "Giant Crow"]},
-      {"id": "seeds", "label": "Life seeds planted", "type": "num", "max": 16},
-      {"id": "shrines", "label": "Shrines activated", "type": "num", "max": 8},
-      {"id": "endings", "label": "Endings", "type": "num", "max": 2}
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "checks",
+        "items": [
+          "Frog King",
+          "Urn Witch",
+          "Lord of Doors",
+          "Giant Door",
+          "Giant Crow"
+        ]
+      },
+      {
+        "id": "seeds",
+        "label": "Life seeds planted",
+        "type": "num",
+        "max": 16
+      },
+      {
+        "id": "shrines",
+        "label": "Shrines activated",
+        "type": "num",
+        "max": 8
+      },
+      {
+        "id": "endings",
+        "label": "Endings",
+        "type": "num",
+        "max": 2
+      }
     ],
     "Slay the Spire": [
-      {"id": "ironclad", "label": "Ironclad heart", "type": "checks", "items": ["Ascension 0", "Ascension 10", "Ascension 20"]},
-      {"id": "silent", "label": "Silent heart", "type": "checks", "items": ["Ascension 0", "Ascension 10", "Ascension 20"]},
-      {"id": "defect", "label": "Defect heart", "type": "checks", "items": ["Ascension 0", "Ascension 10", "Ascension 20"]},
-      {"id": "watcher", "label": "Watcher heart", "type": "checks", "items": ["Ascension 0", "Ascension 10", "Ascension 20"]},
-      {"id": "relics", "label": "Relics collected", "type": "num", "max": 160}
+      {
+        "id": "ironclad",
+        "label": "Ironclad heart",
+        "type": "checks",
+        "items": [
+          "Ascension 0",
+          "Ascension 10",
+          "Ascension 20"
+        ]
+      },
+      {
+        "id": "silent",
+        "label": "Silent heart",
+        "type": "checks",
+        "items": [
+          "Ascension 0",
+          "Ascension 10",
+          "Ascension 20"
+        ]
+      },
+      {
+        "id": "defect",
+        "label": "Defect heart",
+        "type": "checks",
+        "items": [
+          "Ascension 0",
+          "Ascension 10",
+          "Ascension 20"
+        ]
+      },
+      {
+        "id": "watcher",
+        "label": "Watcher heart",
+        "type": "checks",
+        "items": [
+          "Ascension 0",
+          "Ascension 10",
+          "Ascension 20"
+        ]
+      },
+      {
+        "id": "relics",
+        "label": "Relics collected",
+        "type": "num",
+        "max": 160
+      }
     ],
     "Enter the Gungeon": [
-      {"id": "chars", "label": "Characters cleared", "type": "checks", "items": ["Marine", "Convict", "Hunter", "Pilot", "Bullet", "Robot", "Paradox"]},
-      {"id": "past", "label": "Pasts killed", "type": "num", "max": 5},
-      {"id": "guns", "label": "Guns unlocked", "type": "num", "max": 214},
-      {"id": "boss", "label": "Lich defeated", "type": "checks", "items": ["Defeated"]}
+      {
+        "id": "chars",
+        "label": "Characters cleared",
+        "type": "checks",
+        "items": [
+          "Marine",
+          "Convict",
+          "Hunter",
+          "Pilot",
+          "Bullet",
+          "Robot",
+          "Paradox"
+        ]
+      },
+      {
+        "id": "past",
+        "label": "Pasts killed",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "guns",
+        "label": "Guns unlocked",
+        "type": "num",
+        "max": 214
+      },
+      {
+        "id": "boss",
+        "label": "Lich defeated",
+        "type": "checks",
+        "items": [
+          "Defeated"
+        ]
+      }
     ],
     "Dead Cells": [
-      {"id": "cells", "label": "Boss Cells active", "type": "num", "max": 5},
-      {"id": "weapons", "label": "Weapons unlocked", "type": "num", "max": 90},
-      {"id": "runes", "label": "Runes collected", "type": "num", "max": 10},
-      {"id": "bosses", "label": "Bosses defeated", "type": "checks", "items": ["Concierge", "Conjunctivius", "Time Keeper", "Giant", "Hand of the King", "Queen"]}
+      {
+        "id": "cells",
+        "label": "Boss Cells active",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "weapons",
+        "label": "Weapons unlocked",
+        "type": "num",
+        "max": 90
+      },
+      {
+        "id": "runes",
+        "label": "Runes collected",
+        "type": "num",
+        "max": 10
+      },
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "checks",
+        "items": [
+          "Concierge",
+          "Conjunctivius",
+          "Time Keeper",
+          "Giant",
+          "Hand of the King",
+          "Queen"
+        ]
+      }
     ],
     "Teenage Mutant Ninja Turtles: Shredder's Revenge": [
-      {"id": "chars", "label": "Characters unlocked", "type": "checks", "items": ["Leonardo", "Raphael", "Michelangelo", "Donatello", "April", "Splinter", "Casey Jones"]},
-      {"id": "episodes", "label": "Episodes cleared", "type": "num", "max": 16},
-      {"id": "achievements", "label": "Achievements done", "type": "num", "max": 30}
+      {
+        "id": "chars",
+        "label": "Characters unlocked",
+        "type": "checks",
+        "items": [
+          "Leonardo",
+          "Raphael",
+          "Michelangelo",
+          "Donatello",
+          "April",
+          "Splinter",
+          "Casey Jones"
+        ]
+      },
+      {
+        "id": "episodes",
+        "label": "Episodes cleared",
+        "type": "num",
+        "max": 16
+      },
+      {
+        "id": "achievements",
+        "label": "Achievements done",
+        "type": "num",
+        "max": 30
+      }
     ],
     "Streets of Rage 4": [
-      {"id": "chars", "label": "Characters unlocked", "type": "checks", "items": ["Axel", "Blaze", "Cherry", "Floyd", "Adam", "Max", "Shiva", "Estel", "Mr. X"]},
-      {"id": "stages", "label": "Stages cleared", "type": "num", "max": 12},
-      {"id": "stars", "label": "S-ranks", "type": "num", "max": 12}
+      {
+        "id": "chars",
+        "label": "Characters unlocked",
+        "type": "checks",
+        "items": [
+          "Axel",
+          "Blaze",
+          "Cherry",
+          "Floyd",
+          "Adam",
+          "Max",
+          "Shiva",
+          "Estel",
+          "Mr. X"
+        ]
+      },
+      {
+        "id": "stages",
+        "label": "Stages cleared",
+        "type": "num",
+        "max": 12
+      },
+      {
+        "id": "stars",
+        "label": "S-ranks",
+        "type": "num",
+        "max": 12
+      }
     ],
     "It Takes Two": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 9},
-      {"id": "minigames", "label": "Minigames beaten", "type": "num", "max": 25}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 9
+      },
+      {
+        "id": "minigames",
+        "label": "Minigames beaten",
+        "type": "num",
+        "max": 25
+      }
     ],
     "Unpacking": [
-      {"id": "levels", "label": "Levels completed", "type": "num", "max": 8}
+      {
+        "id": "levels",
+        "label": "Levels completed",
+        "type": "num",
+        "max": 8
+      }
     ],
     "Disco Elysium": [
-      {"id": "thoughts", "label": "Thoughts internalized", "type": "num", "max": 53},
-      {"id": "skills", "label": "Skills maxed", "type": "num", "max": 24},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3},
-      {"id": "cases", "label": "Side cases solved", "type": "num", "max": 10}
+      {
+        "id": "thoughts",
+        "label": "Thoughts internalized",
+        "type": "num",
+        "max": 53
+      },
+      {
+        "id": "skills",
+        "label": "Skills maxed",
+        "type": "num",
+        "max": 24
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      },
+      {
+        "id": "cases",
+        "label": "Side cases solved",
+        "type": "num",
+        "max": 10
+      }
     ],
     "Vampire Survivors": [
-      {"id": "chars", "label": "Characters unlocked", "type": "num", "max": 50},
-      {"id": "weapons", "label": "Weapons evolved", "type": "num", "max": 30},
-      {"id": "relics", "label": "Relics found", "type": "num", "max": 20},
-      {"id": "stages", "label": "Stages cleared", "type": "num", "max": 10},
-      {"id": "bosses", "label": "Reaper defeats", "type": "num", "max": 5}
+      {
+        "id": "chars",
+        "label": "Characters unlocked",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "weapons",
+        "label": "Weapons evolved",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "relics",
+        "label": "Relics found",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "stages",
+        "label": "Stages cleared",
+        "type": "num",
+        "max": 10
+      },
+      {
+        "id": "bosses",
+        "label": "Reaper defeats",
+        "type": "num",
+        "max": 5
+      }
     ],
     "Palworld": [
-      {"id": "pals", "label": "Pals caught", "type": "num", "max": 200},
-      {"id": "towers", "label": "Towers defeated", "type": "num", "max": 5},
-      {"id": "base", "label": "Base level", "type": "num", "max": 20},
-      {"id": "tech", "label": "Technology unlocked", "type": "num", "max": 100}
+      {
+        "id": "pals",
+        "label": "Pals caught",
+        "type": "num",
+        "max": 200
+      },
+      {
+        "id": "towers",
+        "label": "Towers defeated",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "base",
+        "label": "Base level",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "tech",
+        "label": "Technology unlocked",
+        "type": "num",
+        "max": 100
+      }
     ],
     "V Rising": [
-      {"id": "bosses", "label": "V Bloods hunted", "type": "num", "max": 37},
-      {"id": "castle", "label": "Castle level", "type": "num", "max": 4},
-      {"id": "spells", "label": "Spells unlocked", "type": "num", "max": 30}
+      {
+        "id": "bosses",
+        "label": "V Bloods hunted",
+        "type": "num",
+        "max": 37
+      },
+      {
+        "id": "castle",
+        "label": "Castle level",
+        "type": "num",
+        "max": 4
+      },
+      {
+        "id": "spells",
+        "label": "Spells unlocked",
+        "type": "num",
+        "max": 30
+      }
     ],
     "Deep Rock Galactic": [
-      {"id": "rank", "label": "Player rank", "type": "num", "max": 100},
-      {"id": "promotions", "label": "Promotions earned", "type": "num", "max": 12},
-      {"id": "overclocks", "label": "Overclocks acquired", "type": "num", "max": 120},
-      {"id": "missions", "label": "Missions completed", "type": "num", "max": 500}
+      {
+        "id": "rank",
+        "label": "Player rank",
+        "type": "num",
+        "max": 100
+      },
+      {
+        "id": "promotions",
+        "label": "Promotions earned",
+        "type": "num",
+        "max": 12
+      },
+      {
+        "id": "overclocks",
+        "label": "Overclocks acquired",
+        "type": "num",
+        "max": 120
+      },
+      {
+        "id": "missions",
+        "label": "Missions completed",
+        "type": "num",
+        "max": 500
+      }
     ],
     "Metaphor: ReFantazio": [
-      {"id": "archetypes", "label": "Archetypes mastered", "type": "num", "max": 40},
-      {"id": "bonds", "label": "Royal Virtues maxed", "type": "num", "max": 4},
-      {"id": "dungeons", "label": "Dungeons cleared", "type": "num", "max": 20},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 2}
+      {
+        "id": "archetypes",
+        "label": "Archetypes mastered",
+        "type": "num",
+        "max": 40
+      },
+      {
+        "id": "bonds",
+        "label": "Royal Virtues maxed",
+        "type": "num",
+        "max": 4
+      },
+      {
+        "id": "dungeons",
+        "label": "Dungeons cleared",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 2
+      }
     ],
     "Black Myth: Wukong": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 6},
-      {"id": "bosses", "label": "Yaoguai Kings", "type": "num", "max": 40},
-      {"id": "secrets", "label": "Secret bosses", "type": "num", "max": 10},
-      {"id": "endings", "label": "Endings", "type": "num", "max": 2}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 6
+      },
+      {
+        "id": "bosses",
+        "label": "Yaoguai Kings",
+        "type": "num",
+        "max": 40
+      },
+      {
+        "id": "secrets",
+        "label": "Secret bosses",
+        "type": "num",
+        "max": 10
+      },
+      {
+        "id": "endings",
+        "label": "Endings",
+        "type": "num",
+        "max": 2
+      }
     ],
     "Helldivers 2": [
-      {"id": "level", "label": "Player level", "type": "num", "max": 50},
-      {"id": "stratagems", "label": "Stratagems unlocked", "type": "num", "max": 50},
-      {"id": "difficulty", "label": "Max difficulty cleared", "type": "num", "max": 10},
-      {"id": "warbonds", "label": "Warbonds completed", "type": "num", "max": 8}
+      {
+        "id": "level",
+        "label": "Player level",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "stratagems",
+        "label": "Stratagems unlocked",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "difficulty",
+        "label": "Max difficulty cleared",
+        "type": "num",
+        "max": 10
+      },
+      {
+        "id": "warbonds",
+        "label": "Warbonds completed",
+        "type": "num",
+        "max": 8
+      }
     ],
     "Remnant II": [
-      {"id": "worlds", "label": "Worlds cleared", "type": "num", "max": 5},
-      {"id": "bosses", "label": "Bosses defeated", "type": "num", "max": 30},
-      {"id:" : "archetypes", "label": "Archetypes unlocked", "type": "num", "max": 11},
-      {"id": "rings", "label": "Rings collected", "type": "num", "max": 90}
+      {
+        "id": "worlds",
+        "label": "Worlds cleared",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "archetypes",
+        "label": "Archetypes unlocked",
+        "type": "num",
+        "max": 11
+      },
+      {
+        "id": "rings",
+        "label": "Rings collected",
+        "type": "num",
+        "max": 90
+      }
     ],
     "Risk of Rain 2": [
-      {"id": "chars", "label": "Survivors unlocked", "type": "num", "max": 14},
-      {"id": "items", "label": "Items discovered", "type": "num", "max": 110},
-      {"id": "bosses", "label": "Bosses defeated", "type": "checks", "items": ["Stone Titan", "Vagrant", "Twisted Scavenger", "Mithrix", "Voidling"]},
-      {"id": "logbook", "label": "Logbook complete %", "type": "num", "max": 100}
+      {
+        "id": "chars",
+        "label": "Survivors unlocked",
+        "type": "num",
+        "max": 14
+      },
+      {
+        "id": "items",
+        "label": "Items discovered",
+        "type": "num",
+        "max": 110
+      },
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "checks",
+        "items": [
+          "Stone Titan",
+          "Vagrant",
+          "Twisted Scavenger",
+          "Mithrix",
+          "Voidling"
+        ]
+      },
+      {
+        "id": "logbook",
+        "label": "Logbook complete %",
+        "type": "num",
+        "max": 100
+      }
     ],
     "Monster Hunter Wilds": [
-      {"id": "hr", "label": "Hunter Rank", "type": "num", "max": 999},
-      {"id": "monsters", "label": "Monsters hunted", "type": "num", "max": 80},
-      {"id": "weapons", "label": "Weapon types mastered", "type": "num", "max": 14},
-      {"id": "armor", "label": "Armor sets crafted", "type": "num", "max": 60}
+      {
+        "id": "hr",
+        "label": "Hunter Rank",
+        "type": "num",
+        "max": 999
+      },
+      {
+        "id": "monsters",
+        "label": "Monsters hunted",
+        "type": "num",
+        "max": 80
+      },
+      {
+        "id": "weapons",
+        "label": "Weapon types mastered",
+        "type": "num",
+        "max": 14
+      },
+      {
+        "id": "armor",
+        "label": "Armor sets crafted",
+        "type": "num",
+        "max": 60
+      }
     ],
     "Senua's Saga: Hellblade II": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 8},
-      {"id": "lorestones", "label": "Lorestones found", "type": "num", "max": 44}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 8
+      },
+      {
+        "id": "lorestones",
+        "label": "Lorestones found",
+        "type": "num",
+        "max": 44
+      }
     ],
     "Frostpunk 2": [
-      {"id": "scenarios", "label": "Scenarios cleared", "type": "num", "max": 5},
-      {"id": "laws", "label": "Laws passed", "type": "num", "max": 50},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3}
+      {
+        "id": "scenarios",
+        "label": "Scenarios cleared",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "laws",
+        "label": "Laws passed",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      }
     ],
     "Manor Lords": [
-      {"id": "regions", "label": "Regions settled", "type": "num", "max": 9},
-      {"id": "approval", "label": "Approval rating", "type": "num", "max": 100},
-      {"id": "army", "label": "Army size", "type": "num", "max": 200}
+      {
+        "id": "regions",
+        "label": "Regions settled",
+        "type": "num",
+        "max": 9
+      },
+      {
+        "id": "approval",
+        "label": "Approval rating",
+        "type": "num",
+        "max": 100
+      },
+      {
+        "id": "army",
+        "label": "Army size",
+        "type": "num",
+        "max": 200
+      }
     ],
     "Warhammer 40K: Space Marine 2": [
-      {"id": "chapters", "label": "Campaign chapters", "type": "num", "max": 6},
-      {"id": "weapons", "label": "Weapons mastered", "type": "num", "max": 14},
-      {"id": "ops", "label": "Operations completed", "type": "num", "max": 6},
-      {"id": "difficulty", "label": "Lethal difficulty cleared", "type": "checks", "items": ["Cleared"]}
+      {
+        "id": "chapters",
+        "label": "Campaign chapters",
+        "type": "num",
+        "max": 6
+      },
+      {
+        "id": "weapons",
+        "label": "Weapons mastered",
+        "type": "num",
+        "max": 14
+      },
+      {
+        "id": "ops",
+        "label": "Operations completed",
+        "type": "num",
+        "max": 6
+      },
+      {
+        "id": "difficulty",
+        "label": "Lethal difficulty cleared",
+        "type": "checks",
+        "items": [
+          "Cleared"
+        ]
+      }
     ],
     "Dragon Quest XI S": [
-      {"id": "party", "label": "Party members recruited", "type": "checks", "items": ["Erik", "Veronica", "Serena", "Sylvando", "Jade", "Rab", "Hendrik"]},
-      {"id": "medals", "label": "Mini medals", "type": "num", "max": 110},
-      {"id": "side", "label": "Side quests done", "type": "num", "max": 100},
-      {"id": "casino", "label": "Casino prizes claimed", "type": "num", "max": 10}
+      {
+        "id": "party",
+        "label": "Party members recruited",
+        "type": "checks",
+        "items": [
+          "Erik",
+          "Veronica",
+          "Serena",
+          "Sylvando",
+          "Jade",
+          "Rab",
+          "Hendrik"
+        ]
+      },
+      {
+        "id": "medals",
+        "label": "Mini medals",
+        "type": "num",
+        "max": 110
+      },
+      {
+        "id": "side",
+        "label": "Side quests done",
+        "type": "num",
+        "max": 100
+      },
+      {
+        "id": "casino",
+        "label": "Casino prizes claimed",
+        "type": "num",
+        "max": 10
+      }
     ],
     "A Plague Tale: Requiem": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 17},
-      {"id": "flowers", "label": "Flowers collected", "type": "num", "max": 33},
-      {"id": "tools", "label": "Tools found", "type": "num", "max": 30},
-      {"id": "souvenirs", "label": "Souvenirs found", "type": "num", "max": 12}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 17
+      },
+      {
+        "id": "flowers",
+        "label": "Flowers collected",
+        "type": "num",
+        "max": 33
+      },
+      {
+        "id": "tools",
+        "label": "Tools found",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "souvenirs",
+        "label": "Souvenirs found",
+        "type": "num",
+        "max": 12
+      }
     ],
     "Sonic Frontiers": [
-      {"id": "islands", "label": "Islands cleared", "type": "num", "max": 5},
-      {"id": "seeds", "label": "Memory tokens", "type": "num", "max": 400},
-      {"id:" : "cyber", "label": "Cyber stages cleared", "type": "num", "max": 30},
-      {"id": "bosses", "label": "Titan bosses", "type": "checks", "items": ["Giganto", "Wyvern", "Knight", "Supreme"]}
+      {
+        "id": "islands",
+        "label": "Islands cleared",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "seeds",
+        "label": "Memory tokens",
+        "type": "num",
+        "max": 400
+      },
+      {
+        "id": "cyber",
+        "label": "Cyber stages cleared",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "bosses",
+        "label": "Titan bosses",
+        "type": "checks",
+        "items": [
+          "Giganto",
+          "Wyvern",
+          "Knight",
+          "Supreme"
+        ]
+      }
     ],
     "Tactics Ogre: Reborn": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 4},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3},
-      {"id": "chars", "label": "Unique units recruited", "type": "num", "max": 60},
-      {"id": "warren", "label": "Warren Report entries", "type": "num", "max": 200}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 4
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      },
+      {
+        "id": "chars",
+        "label": "Unique units recruited",
+        "type": "num",
+        "max": 60
+      },
+      {
+        "id": "warren",
+        "label": "Warren Report entries",
+        "type": "num",
+        "max": 200
+      }
     ],
     "Ghostrunner 2": [
-      {"id": "levels", "label": "Levels cleared", "type": "num", "max": 25},
-      {"id": "mods", "label": "Mods unlocked", "type": "num", "max": 30},
-      {"id": "bosses", "label": "Bosses defeated", "type": "num", "max": 5}
+      {
+        "id": "levels",
+        "label": "Levels cleared",
+        "type": "num",
+        "max": 25
+      },
+      {
+        "id": "mods",
+        "label": "Mods unlocked",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "num",
+        "max": 5
+      }
     ],
     "Star Wars Jedi: Survivor": [
-      {"id": "force", "label": "Force abilities", "type": "checks", "items": ["Slow", "Pull", "Push", "Confusion", "Lift", "Dash"]},
-      {"id": "stances", "label": "Stances mastered", "type": "checks", "items": ["Single", "Double-Bladed", "Crossguard", "Dual Wield", "Blaster"]},
-      {"id": "seeds", "label": "Seed pods planted", "type": "num", "max": 100},
-      {"id": "chests", "label": "Chests opened", "type": "num", "max": 120},
-      {"id": "rumors", "label": "Rumors completed", "type": "num", "max": 50}
+      {
+        "id": "force",
+        "label": "Force abilities",
+        "type": "checks",
+        "items": [
+          "Slow",
+          "Pull",
+          "Push",
+          "Confusion",
+          "Lift",
+          "Dash"
+        ]
+      },
+      {
+        "id": "stances",
+        "label": "Stances mastered",
+        "type": "checks",
+        "items": [
+          "Single",
+          "Double-Bladed",
+          "Crossguard",
+          "Dual Wield",
+          "Blaster"
+        ]
+      },
+      {
+        "id": "seeds",
+        "label": "Seed pods planted",
+        "type": "num",
+        "max": 100
+      },
+      {
+        "id": "chests",
+        "label": "Chests opened",
+        "type": "num",
+        "max": 120
+      },
+      {
+        "id": "rumors",
+        "label": "Rumors completed",
+        "type": "num",
+        "max": 50
+      }
     ],
-    "God of War: Ragnarok – Valhalla": [
-      {"id": "floors", "label": "Floors cleared", "type": "num", "max": 30},
-      {"id": "memories", "label": "Memories unlocked", "type": "num", "max": 9},
-      {"id": "boons", "label": "Boons discovered", "type": "num", "max": 40}
+    "God of War: Ragnarok \u2013 Valhalla": [
+      {
+        "id": "floors",
+        "label": "Floors cleared",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "memories",
+        "label": "Memories unlocked",
+        "type": "num",
+        "max": 9
+      },
+      {
+        "id": "boons",
+        "label": "Boons discovered",
+        "type": "num",
+        "max": 40
+      }
     ],
     "Ghost of Yotei": [
-      {"id": "main", "label": "Main quests", "type": "num", "max": 20},
-      {"id": "side", "label": "Side quests", "type": "num", "max": 40},
-      {"id": "shrines", "label": "Shrines visited", "type": "num", "max": 50},
-      {"id": "outposts", "label": "Outposts liberated", "type": "num", "max": 15}
+      {
+        "id": "main",
+        "label": "Main quests",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "side",
+        "label": "Side quests",
+        "type": "num",
+        "max": 40
+      },
+      {
+        "id": "shrines",
+        "label": "Shrines visited",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "outposts",
+        "label": "Outposts liberated",
+        "type": "num",
+        "max": 15
+      }
     ],
     "Avowed": [
-      {"id": "main", "label": "Main quests", "type": "num", "max": 20},
-      {"id": "side", "label": "Side quests", "type": "num", "max": 50},
-      {"id": "companions", "label": "Companion quests done", "type": "num", "max": 4},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3}
+      {
+        "id": "main",
+        "label": "Main quests",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "side",
+        "label": "Side quests",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "companions",
+        "label": "Companion quests done",
+        "type": "num",
+        "max": 4
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      }
     ],
     "Indiana Jones and the Great Circle": [
-      {"id": "chapters", "label": "Chapters cleared", "type": "num", "max": 8},
-      {"id": "artifacts", "label": "Artifacts found", "type": "num", "max": 60},
-      {"id": "adventures", "label": "Side adventures", "type": "num", "max": 20}
+      {
+        "id": "chapters",
+        "label": "Chapters cleared",
+        "type": "num",
+        "max": 8
+      },
+      {
+        "id": "artifacts",
+        "label": "Artifacts found",
+        "type": "num",
+        "max": 60
+      },
+      {
+        "id": "adventures",
+        "label": "Side adventures",
+        "type": "num",
+        "max": 20
+      }
     ],
     "Hollow Knight: Silksong": [
-      {"id": "bosses", "label": "Bosses defeated", "type": "num", "max": 20},
-      {"id": "charms", "label": "Charms collected", "type": "num", "max": 45},
-      {"id": "quests", "label": "NPC quests completed", "type": "num", "max": 20},
-      {"id": "endings", "label": "Endings", "type": "num", "max": 3}
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "charms",
+        "label": "Charms collected",
+        "type": "num",
+        "max": 45
+      },
+      {
+        "id": "quests",
+        "label": "NPC quests completed",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "endings",
+        "label": "Endings",
+        "type": "num",
+        "max": 3
+      }
     ],
     "Persona 6": [
-      {"id": "palace", "label": "Palaces cleared", "type": "num", "max": 9},
-      {"id": "conf", "label": "Confidants maxed", "type": "num", "max": 20},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3}
+      {
+        "id": "palace",
+        "label": "Palaces cleared",
+        "type": "num",
+        "max": 9
+      },
+      {
+        "id": "conf",
+        "label": "Confidants maxed",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      }
     ],
     "The First Berserker: Khazan": [
-      {"id": "bosses", "label": "Bosses defeated", "type": "num", "max": 20},
-      {"id": "weapons", "label": "Weapon types mastered", "type": "num", "max": 3},
-      {"id": "skills", "label": "Skills unlocked", "type": "num", "max": 50}
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "weapons",
+        "label": "Weapon types mastered",
+        "type": "num",
+        "max": 3
+      },
+      {
+        "id": "skills",
+        "label": "Skills unlocked",
+        "type": "num",
+        "max": 50
+      }
     ],
     "Elden Ring: Shadow of the Erdtree": [
-      {"id": "bosses", "label": "DLC bosses defeated", "type": "checks", "items": ["Divine Beast", "Rellana", "Putrescent Knight", "Messmer", "Romina", "Bayle", "Midra", "Promised Consort Radahn"]},
-      {"id": "fragments", "label": "Scadutree fragments", "type": "num", "max": 50},
-      {"id": "revered", "label": "Revered Spirit Ashes", "type": "num", "max": 25}
+      {
+        "id": "bosses",
+        "label": "DLC bosses defeated",
+        "type": "checks",
+        "items": [
+          "Divine Beast",
+          "Rellana",
+          "Putrescent Knight",
+          "Messmer",
+          "Romina",
+          "Bayle",
+          "Midra",
+          "Promised Consort Radahn"
+        ]
+      },
+      {
+        "id": "fragments",
+        "label": "Scadutree fragments",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "revered",
+        "label": "Revered Spirit Ashes",
+        "type": "num",
+        "max": 25
+      }
     ],
     "Wuchang: Fallen Feathers": [
-      {"id": "bosses", "label": "Bosses defeated", "type": "num", "max": 20},
-      {"id": "feathers", "label": "Feather abilities", "type": "num", "max": 30},
-      {"id": "endings", "label": "Endings", "type": "num", "max": 3}
+      {
+        "id": "bosses",
+        "label": "Bosses defeated",
+        "type": "num",
+        "max": 20
+      },
+      {
+        "id": "feathers",
+        "label": "Feather abilities",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "endings",
+        "label": "Endings",
+        "type": "num",
+        "max": 3
+      }
     ],
     "S.T.A.L.K.E.R. 2": [
-      {"id": "main", "label": "Main missions", "type": "num", "max": 30},
-      {"id": "side", "label": "Side missions", "type": "num", "max": 60},
-      {"id": "artifacts", "label": "Artifacts found", "type": "num", "max": 50},
-      {"id": "endings", "label": "Endings seen", "type": "num", "max": 3}
+      {
+        "id": "main",
+        "label": "Main missions",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "side",
+        "label": "Side missions",
+        "type": "num",
+        "max": 60
+      },
+      {
+        "id": "artifacts",
+        "label": "Artifacts found",
+        "type": "num",
+        "max": 50
+      },
+      {
+        "id": "endings",
+        "label": "Endings seen",
+        "type": "num",
+        "max": 3
+      }
     ],
     "Advance Wars 1+2: Re-Boot Camp": [
-      {"id": "aw1", "label": "AW1 campaign missions", "type": "num", "max": 30},
-      {"id": "aw2", "label": "AW2 campaign missions", "type": "num", "max": 28},
-      {"id": "cos", "label": "COs unlocked", "type": "num", "max": 18},
-      {"id": "maps", "label": "War Room maps S-ranked", "type": "num", "max": 38}
+      {
+        "id": "aw1",
+        "label": "AW1 campaign missions",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "aw2",
+        "label": "AW2 campaign missions",
+        "type": "num",
+        "max": 28
+      },
+      {
+        "id": "cos",
+        "label": "COs unlocked",
+        "type": "num",
+        "max": 18
+      },
+      {
+        "id": "maps",
+        "label": "War Room maps S-ranked",
+        "type": "num",
+        "max": 38
+      }
     ],
     "Dragon Quest Builders 2": [
-      {"id": "islands", "label": "Islands completed", "type": "num", "max": 5},
-      {"id": "recipes", "label": "Recipes learned", "type": "num", "max": 200},
-      {"id": "buildmarks", "label": "Buildmarks earned", "type": "num", "max": 50}
+      {
+        "id": "islands",
+        "label": "Islands completed",
+        "type": "num",
+        "max": 5
+      },
+      {
+        "id": "recipes",
+        "label": "Recipes learned",
+        "type": "num",
+        "max": 200
+      },
+      {
+        "id": "buildmarks",
+        "label": "Buildmarks earned",
+        "type": "num",
+        "max": 50
+      }
     ],
     "Neo: The World Ends With You": [
-      {"id": "weeks", "label": "Weeks cleared", "type": "num", "max": 3},
-      {"id": "pins", "label": "Pins mastered", "type": "num", "max": 300},
-      {"id": "reaper", "label": "Reaper Creeper battles", "type": "num", "max": 30},
-      {"id": "endings", "label": "Secret ending", "type": "checks", "items": ["Unlocked"]}
+      {
+        "id": "weeks",
+        "label": "Weeks cleared",
+        "type": "num",
+        "max": 3
+      },
+      {
+        "id": "pins",
+        "label": "Pins mastered",
+        "type": "num",
+        "max": 300
+      },
+      {
+        "id": "reaper",
+        "label": "Reaper Creeper battles",
+        "type": "num",
+        "max": 30
+      },
+      {
+        "id": "endings",
+        "label": "Secret ending",
+        "type": "checks",
+        "items": [
+          "Unlocked"
+        ]
+      }
     ]
   }
 }
